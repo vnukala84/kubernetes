@@ -1,0 +1,6 @@
+# kubernetes
+
+
+
+Cluster IP
+NodePort
