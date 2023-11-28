@@ -1,1 +1,23 @@
 
+
+
+kubectl config set-context --current --namespace=ckad
+
+=======================================================
+Using an Alias for kubectl
+
+[venkat@localhost CKAD]$ alias k=kubectl
+[venkat@localhost CKAD]$ k get po
+==============================================
+kubectl api-resources
+
+Deleting Kubernetes Objects
+----------------------
+ kubectl delete pod frontend  --grace-period=0 --force
+==========================================
+Finding Object Information
+
+kubectl get pods -o yaml | grep -C 5 labels:
+-----------------------------------------------
+kubectl create --help
+
